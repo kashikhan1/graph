@@ -9,13 +9,13 @@ localStorage.removeItem("trace2");
 localStorage.removeItem("trace3");
 localStorage.removeItem("trace4");
 
-$.get("http://localhost:3000/sollkon",function(response){
+$.get("http://localhost:4444/sollkon",function(response){
     node1=response.sollkon
     window.example1 = new Taggle($('.example1.textarea')[0], {
         tags: node1
     });
 });
-$.get("http://localhost:3000/istkon",function(response){
+$.get("http://localhost:4444/istkon",function(response){
     node=response.istkon
     window.example2 = new Taggle($('.example2.textarea')[0], {
         tags: node
