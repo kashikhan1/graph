@@ -1,0 +1,24 @@
+{
+    "name": "graph",
+    "version": "1.0.0",
+    "description": "graph",
+    "main": "./build/bin/server.js",
+    "typings": "./build/bin/server.d.ts",
+    "directories": {
+        "bin": "./build/bin"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kashikhan1/graph"
+    },
+    "author": "A",
+    "license": "MIT",
+    "dependencies": {
+        "path": "*",
+        "fs": "*",
+        "express": "4.16.3"
+    }
+}
