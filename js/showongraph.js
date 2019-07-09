@@ -9,7 +9,7 @@ $(document).on("click", ".taggle_text", function() {
     console.log($(this)[0].innerHTML);
     let id = $(this)[0].innerHTML;
     let chart = tab;
-    $.get(`http://localhost:3000/${id}/${chart}`, function(response) {
+    $.get(`http://localhost:4444/${id}/${chart}`, function(response) {
         console.log($(".nav-tabs .active > a").attr("href"))
         let firstColumn = response.A3 || response.A1;
         let secondColumn = response.A4 || response.A2;
