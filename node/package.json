@@ -1,24 +1,16 @@
 {
-    "name": "graph",
+    "name": "graph-backend",
     "version": "1.0.0",
-    "description": "graph",
-    "main": "./build/bin/server.js",
-    "typings": "./build/bin/server.d.ts",
-    "directories": {
-        "bin": "./build/bin"
+    "description": "First version of graph backend",
+    "main": "app.js",
+    "dependencies": {
+        "express": "4.15.0",
+        "fs": "*",
+        "path": "*"
     },
     "scripts": {
         "start": "node app.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kashikhan1/graph"
-    },
-    "author": "A",
-    "license": "MIT",
-    "dependencies": {
-        "path": "*",
-        "fs": "*",
-        "express": "4.16.3"
-    }
+    "devDependencies": {},
+    "author": ""
 }
