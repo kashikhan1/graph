@@ -4,7 +4,7 @@
     "description": "First version of graph backend",
     "main": "app.js",
     "dependencies": {
-        "express": "4.15.0",
+        "express": "4.19.2",
         "fs": "0.0.1-security",
         "path": "0.12.7"
     },
